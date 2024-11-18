@@ -1,0 +1,8 @@
+apply from: file("$rootDir/gradle/libs.gradle")
+
+apply plugin: "java-library"
+
+dependencies {
+    // non-transitive dependencies required for compile/runtime by this project only
+    implementation libs.dnsjava
+}

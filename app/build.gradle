@@ -1,0 +1,12 @@
+apply from: file("$rootDir/gradle/libs.gradle")
+
+apply plugin: "application"
+
+dependencies {
+    implementation project(':main'),
+            libs.dnsjava
+}
+
+application {
+    mainClass = "com.mbudnek.demo.Application"
+}

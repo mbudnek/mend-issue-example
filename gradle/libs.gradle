@@ -1,0 +1,12 @@
+// This file serves as a single place to declare all dependency definitions.
+// Subprojects can reference a dependency here, like "compile libs.dropwizardCore",
+// and ensure they use the same version of the dependency as all other subprojects.
+
+ext {
+    libs = [:]
+
+    // ---------------------------------------------------------------------
+    // dependencies
+
+    libs.dnsjava = 'dnsjava:dnsjava:3.5.0'
+}
