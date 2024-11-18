@@ -8,5 +8,5 @@ ext {
     // ---------------------------------------------------------------------
     // dependencies
 
-    libs.dnsjava = 'dnsjava:dnsjava:3.5.0'
+    libs.dnsjava = 'dnsjava:dnsjava:3.6.2'
 }
